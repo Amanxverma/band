@@ -1,0 +1,69 @@
+.navbar{
+    background-color: black;
+    border-top-left-radius: 8px;
+}
+ul{
+    display: flex;
+    margin:0px;
+}
+.navbar li{
+    color:white;
+    list-style-type: none;
+    padding: 3px 3px;
+    margin:10px 20px;
+    text-decoration: none;
+}
+.first{
+    
+    height:100vh;
+    width:100%;
+}
+.image1{
+    position: relative;
+    z-index: 1;
+}
+.overlap{
+    position: absolute;
+    bottom:40px;
+    z-index: 2;
+    margin-left: 50px;
+
+}
+ #heading1{
+    margin-left: 600px;
+}
+#heading2{
+    margin-left: 480px;
+}
+.text{
+    color:white;
+}
+.second{
+    width: 700px;
+    margin:0 auto;
+
+}
+.section{
+    display: flex;
+    width: 600px;
+    justify-content: space-around;
+    gap:80px;
+    margin: 0 auto;
+    
+}
+.hello{
+    text-align: center;
+    margin-top:70px;
+}
+.hello1{
+    text-align: center;
+    margin-bottom: 20px;
+    font-style: italic;
+    font-size: 20px;
+}
+.desc{
+    font-size: 18px;
+}
+.section1, .section2, .section3{
+    margin-left: 50px;
+}

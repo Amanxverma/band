@@ -4,15 +4,84 @@
 }
 ul{
     display: flex;
-    margin:0px;
+    margin: 0px;
+}
+.search{
+    margin-left: 980px !important;
+    color: white;
+}
+.search:hover{
+    color: white;
+    border: 3px solid red;
+    background-color: red;
 }
 .navbar li{
-    color:white;
+    color: white;
     list-style-type: none;
     padding: 3px 3px;
-    margin:10px 20px;
+    margin: 10px 20px;
     text-decoration: none;
 }
+.navbar a{ 
+  float: left; 
+  font-size: 16px;
+  color: white;
+  margin: 0px;
+  text-align: center;
+  padding: 0px 0px;
+  text-decoration: none;
+
+} 
+.dates{
+    background-color: white;
+    color: grey;
+    width: 900PX;
+    /* height: 150px; */
+    display: block;
+    margin: auto;
+    margin-left: 22%;
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+     
+}
+.mon {
+    border-bottom: 2px solid grey;
+    padding: 2px;
+    
+
+}
+span{
+    border: 2px solid red;
+    box-sizing: border-box; 
+    /* padding: px; */
+    text-align: center;
+    background-color: rgb(240, 61, 37);
+    color: white;
+    margin-left: 30px;
+    
+}
+.num{
+    float: right;
+    border: 2px solid grey;
+    background-color: black;
+    color: white;
+    margin-bottom: 0px;
+    border-radius: 50%;
+    width: 30px;
+    height: 3%;
+    text-align: center;
+    /* margin-top: -15px; */
+}
+/* .dropdown{
+    float: left;
+    overflow: hidden;
+}
+.dropdown .dropbtn{
+    font-size: 16px;
+    border: none;
+} */
 .first{
     
     height:100vh;
@@ -49,7 +118,6 @@ ul{
     justify-content: space-around;
     gap:80px;
     margin: 0 auto;
-    
 }
 .hello{
     text-align: center;
@@ -63,7 +131,106 @@ ul{
 }
 .desc{
     font-size: 18px;
+
 }
 .section1, .section2, .section3{
     margin-left: 50px;
+}
+p{
+    text-decoration: none;
+    padding-left: 5px;
+
+}
+.third{
+    width: auto;
+    margin: 0 auto;
+    background-color: black;
+    color: white;
+}
+.hyy{
+    text-align: center;
+    margin-top:70px;
+}
+.hyy1{
+    text-align: center;
+    margin-bottom: 20px;
+    font-style: italic;
+    font-size: 20px;
+    color: grey;
+}
+.place{
+    display: flex;
+    width: 600px;
+    justify-content: space-around;
+    gap:20px;
+    margin: 30px auto;
+}
+.firstplace,.secondplace,.thirdplace{
+    margin-left: 50px;
+    background-color: white;
+    color: black;
+    width:fit-content;
+   
+
+    
+}
+button{
+    background-color: black;
+    color: white;
+    text-align: center center;
+    padding: auto;
+    display: block;
+    margin-bottom:16px !important;
+    margin-left: 10px !important;
+}
+.date2{
+    color: grey;
+   display:block;
+   
+}
+.fourth{
+    width: 100%;
+    margin:0 auto;
+    background-color: white;
+    color: black;
+}
+.cont{
+    text-align: center;
+    margin-top:70px;
+}
+.cont1{
+    text-align: center;
+    margin-bottom: 20px;
+    font-style: italic;
+    font-size: 20px;
+    color: grey;
+}
+.details{
+    margin-left: 320px !important;
+    line-height: 40px;
+}
+.icons{
+    margin-left: 50%;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    height: 100px;
+    margin-top: 50px;
+
+}
+.submitform{
+    background-color: white;
+    margin-top: -100px;
+}
+.msg{
+    width: 380px;
+    margin-left: 400px !important;
+}
+.name{
+    margin-bottom: 4px;
+    margin-left: 800px;
+}
+.send{
+    margin-left: 1120px;
+    margin-top: 4px;
 }
